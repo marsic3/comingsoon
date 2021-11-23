@@ -14,8 +14,8 @@
   <div class="h-16 flex py-4 px-4 w-full justify-between">
     <a href="/">
       <Logo
-        class="h-full dark:text-white text-black"
-        title="Stormix - Anas Mazouni"
+        class="dark:text-white text-black"
+        title="Rizoto bar"
       />
     </a>
     <div class="h-full cursor-pointer">

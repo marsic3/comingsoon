@@ -5,34 +5,9 @@
     setup() {
       const socials = [
         {
-          label: 'Facebook',
-          icon: 'fab fa-facebook-f',
-          url: 'https://www.facebook.com/',
-        },
-        {
-          label: 'Twitter',
-          icon: 'fab fa-twitter',
-          url: 'https://twitter.com/stormix_co',
-        },
-        {
-          label: 'Github',
-          icon: 'fab fa-github',
-          url: 'https://github.com/Stormix',
-        },
-        {
-          label: 'Linkedin',
-          icon: 'fab fa-linkedin-in',
-          url: 'https://www.linkedin.com/in/anasmazouni/',
-        },
-        {
           label: 'Instagram',
           icon: 'fab fa-instagram',
-          url: 'https://www.instagram.com/stormix.co/',
-        },
-        {
-          label: 'StackOverflow',
-          icon: 'fab fa-stack-overflow',
-          url: 'https://stackoverflow.com/users/3370660/stormix',
+          url: 'https://www.instagram.com/rizoto.bg/',
         },
       ]
 
@@ -64,6 +39,7 @@
       width: 1px;
       height: 6rem;
       margin: 0 auto;
+      background-color: #e8e8b7;
 
       @apply dark:bg-white bg-black;
     }

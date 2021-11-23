@@ -11,8 +11,8 @@
     <Header />
     <main class="flex flex-1 w-screen px-10 md:px-2">
       <div class="m-auto">
-        <h1 class="text-3xl title" title="Under construction - coming soon...">
-          Under construction - coming soon...
+        <h1 class="text-3xl title" title="Prvi Rižoto bar u Beogradu">
+          Prvi Rižoto bar u Beogradu...
         </h1>
       </div>
     </main>
@@ -25,6 +25,8 @@
   .title {
     animation-delay: 2s;
     animation: glitch 1s linear infinite;
+    color: #e8e8b7;
+
     &::before {
       content: attr(title);
       position: absolute;
@@ -47,20 +49,6 @@
     }
     62% {
       transform: translate(0, 0) skew(5deg);
-    }
-  }
-
-  @keyframes glitchTop {
-    2%,
-    64% {
-      transform: translate(2px, -2px);
-    }
-    4%,
-    60% {
-      transform: translate(-2px, 2px);
-    }
-    62% {
-      transform: translate(13px, -1px) skew(-13deg);
     }
   }
 
