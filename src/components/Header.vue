@@ -1,20 +1,27 @@
 <script setup lang="ts">
   import { ref } from 'vue'
   import Logo from './Logo.vue'
+  import LogoDark from './LogoDark.vue'
 
   const darkMode = ref(true)
 
   const toggleDarkMode = () => {
     darkMode.value = !darkMode.value
-    document.documentElement.className = darkMode.value ? 'dark' : ''
+    document.documentElement.className = darkMode.value ? 'dark' : '';
   }
 </script>
 
 <template>
   <div class="h-16 flex py-4 px-4 w-full justify-between">
     <a href="/">
-      <Logo
+      <Logo v-if="darkMode"
         class="dark:text-white text-black"
+        style="width: 100%"
+        title="Rizoto bar"
+      />
+      <LogoDark v-else
+        class="dark:text-white text-black"
+        style="width: 100%"
         title="Rizoto bar"
       />
     </a>

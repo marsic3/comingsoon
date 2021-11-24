@@ -2,6 +2,7 @@
   import Header from '@/components/Header.vue'
   import Footer from '@/components/Footer.vue'
   import Socials from '@/components/Socials.vue'
+
 </script>
 
 <template>
@@ -16,8 +17,8 @@
         </h1>
       </div>
     </main>
-    <Footer />
     <Socials />
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -26,6 +27,7 @@
     animation-delay: 2s;
     animation: glitch 1s linear infinite;
     color: #e8e8b7;
+    @apply dark:bg-transparent bg-black;
 
     &::before {
       content: attr(title);
